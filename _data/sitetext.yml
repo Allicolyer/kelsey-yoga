@@ -11,10 +11,10 @@
 # -----------------
 en: &DEFAULT_EN
   header:
-    title: Yoga in Prospect Park
-    text: Every Sunday 
+    title: Yoga and Pilates in Prospect Park
+    text: Every Saturday
     button: Register
-    buttonlink: "#register"
+    buttonlink: "https://www.meetup.com/brooklyn-pilates-yoga-meetup-group/"
 
   register:
     title: "Register"
@@ -38,7 +38,7 @@ en: &DEFAULT_EN
             icon: fab fa-facebook-f
           - url: https://linkedin.com
             icon: fab fa-linkedin-in
-      - name: "Caitlin"
+      - name: "Caitlin Rondina"
         description: "Caitlin has a certification in both reformer and mat pilates. She teaches a motivating, inspiring and upbeat pilates class that is designed to strengthen, challenge and empower. She loves to include elements from yoga and barre into her classes as a way to provide a well-rounded practice that strengthens, lengthens and tones the body. Her classes require stamina and strength of will, but her playlists will keep you going through the shakes! Students will leave feeling grounded, confident and uplifted. She loves sharing her joy of movement with others!"
         image: assets/img/instructors/caitlin.jpeg
         social:
