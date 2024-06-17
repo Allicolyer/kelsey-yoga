@@ -13,8 +13,6 @@ en: &DEFAULT_EN
   nav:
     - title: "Upcoming Classes"
       section: events
-    - title: "Calendar"
-      section: calendar
     - title: "Instructors"
       section: instructors
     - title: "Contact"

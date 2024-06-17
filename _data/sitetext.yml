@@ -13,7 +13,7 @@ en: &DEFAULT_EN
   header:
     title: Yoga and Pilates in Prospect Park
     text: Every Saturday
-    button: Sign Up
+    button: Learn More
     buttonlink: "#events"
 
   events:
