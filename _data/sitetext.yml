@@ -13,14 +13,16 @@ en: &DEFAULT_EN
   header:
     title: Yoga and Pilates in Prospect Park
     text: Every Saturday
-    button: Register
-    buttonlink: "#register"
+    button: Sign Up
+    buttonlink: "#events"
 
-  register:
-    title: "Register"
-    text: "Sign up for our next class"
+  events:
+    title: "Upcoming Classes"
+    text: 
     body: "We will meet at the Picnic House at Prospect Park near WINNER bakery. Once everyone arrives, we will walk to find a nearby spot for class together."
-    section: register
+    button: "Sign up on Meetup"
+    buttonlink: "https://www.meetup.com/brooklyn-pilates-yoga-meetup-group/events/"
+    section: events
 
   instructors:
     title: "Instructors"

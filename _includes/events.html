@@ -1,0 +1,44 @@
+<!-- About -->
+{% if site.locale and site.locale != "" and site.locale != nil %}
+<section class="page-section" id="{{ site.data.sitetext[site.locale].events.section | default: "events" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext[site.locale].events.title | default: "Events" }}</h2>
+        {%- if site.data.sitetext[site.locale].events.text -%}
+          <h3 class="section-subheading text-muted">{{ site.data.sitetext[site.locale].events.text | default: "" }}</h3>
+        {%- endif -%}
+        <a class="btn btn-primary btn-xl text-uppercase" target="_blank"
+                  href="{{ site.data.sitetext[site.locale].events.buttonlink }}">{{ site.data.sitetext[site.locale].events.button }}</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto mt-3 text-center">
+        <div class="large text-muted">{{ site.data.sitetext[site.locale].events.body | markdownify }}</div>
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3026.361883935452!2d-73.97333900398256!3d40.66599469426995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zNDDCsDM5JzU2LjYiTiA3M8KwNTgnMTcuMiJX!5e0!3m2!1sen!2sus!4v1718517447613!5m2!1sen!2sus"
+          width= "100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{% else %}
+<section class="page-section" id="{{ site.data.sitetext.events.section | default: "events" }}">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h2 class="section-heading text-uppercase">{{ site.data.sitetext.events.title | default: "Sign Up" }}</h2>
+        <h3 class="section-subheading text-muted">{{ site.data.sitetext.events.text | default: "" }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <div class="large text-muted">{{ site.data.sitetext.events.body | markdownify }}</div>
+      </div>
+    </div>
+  </div>
+</section>
+{% endif %}
+<!-- End About -->
